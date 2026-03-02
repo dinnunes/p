@@ -1,5 +1,6 @@
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react'; // Adicionamos o useEffect aqui
 
 interface ProductTemplateProps {
   name: string;
@@ -7,10 +8,16 @@ interface ProductTemplateProps {
   category?: string;
   price?: string;
   link?: string;
-  image?: string; // Adicionamos a imagem aqui
+  image?: string;
 }
 
 export default function ProductTemplate({ name, description, category, price, link, image }: ProductTemplateProps) {
+  
+  // Atualiza a aba do navegador com o nome do produto (Ex: PiTeni | Pitore)
+  useEffect(() => {
+    document.title = `${name} | Pitore`;
+  }, [name]);
+
   return (
     <motion.div 
       initial={{ opacity: 0 }}
@@ -23,7 +30,6 @@ export default function ProductTemplate({ name, description, category, price, li
       </Link>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
-        {/* Espaço da Imagem */}
         <div className="aspect-[4/5] bg-white/5 flex items-center justify-center border border-white/5 overflow-hidden">
           {image ? (
             <img src={image} alt={name} className="w-full h-full object-cover" />
