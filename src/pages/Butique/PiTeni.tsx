@@ -5,7 +5,7 @@ export default function PiTeni() {
     <ProductTemplate 
       category="Liivro" 
       name="PiTeni" 
-      description="Entretenimento, por gentileza." 
+      description="A maioria usa o entretenimento para fugir da realidade. O PiTeni é para quem quer expandi-la." 
       price="R$ 88" 
       link="https://pay.kiwify.com.br/LPKOeCU" 
     />
