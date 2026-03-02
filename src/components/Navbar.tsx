@@ -13,7 +13,9 @@ export default function Navbar() {
         <Link to="/sobre" className="hover:text-white transition-colors duration-300">
           Sobre
         </Link>
+        {/* Agora com o texto "Loja" dentro! */}
         <Link to="/loja" className="hover:text-white transition-colors duration-300">
+          Loja
         </Link>
       </div>
     </nav>
