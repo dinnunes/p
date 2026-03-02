@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import Butique from './pages/Butique';
@@ -19,11 +19,12 @@ import Contato from './pages/Sobre/Contato';
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="app-wrapper">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
+            
             <Route path="butique">
               <Route index element={<Butique />} />
               <Route path="piteni" element={<PiTeni />} />
@@ -34,6 +35,7 @@ export default function App() {
               <Route path="pistilo" element={<Pistilo />} />
               <Route path="pimor" element={<PiMor />} />
             </Route>
+
             <Route path="sobre">
               <Route index element={<Sobre />} />
               <Route path="mim" element={<Mim />} />
@@ -46,6 +48,6 @@ export default function App() {
           </Route>
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
