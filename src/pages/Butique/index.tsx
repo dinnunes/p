@@ -2,13 +2,13 @@ import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 
 const products = [
-  { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.' },
-  { id: 'pidin', name: 'PiDin', desc: 'Dinheirooooo…' },
-  { id: 'pisau', name: 'PiSau', desc: 'A saúde, do vermelho para o azul.' },
-  { id: 'pisofia', name: 'PiSofia', desc: 'Qual é a sua filosofia?' },
-  { id: 'pilin', name: 'PiLin', desc: 'There is not just one language.' },
-  { id: 'pistilo', name: 'Pistilo', desc: 'Indo com estilo.' },
-  { id: 'pimor', name: 'PiMor', desc: 'Ah, o amor!' },
+  { id: 'piteni', name: 'PiTeni', desc: 'Entretenimento, por gentileza.', image: '/piteni.jpg' },
+  { id: 'pidin', name: 'PiDin', desc: 'Dinheirooooo…', image: '/pidin.jpg' },
+  { id: 'pisau', name: 'PiSau', desc: 'A saúde, do vermelho para o azul.', image: '/pisau.jpg' },
+  { id: 'pisofia', name: 'PiSofia', desc: 'Qual é a sua filosofia?', image: '/pisofia.jpg' },
+  { id: 'pilin', name: 'PiLin', desc: 'There is not just one language.', image: '/pilin.jpg' },
+  { id: 'pistilo', name: 'Pistilo', desc: 'Indo com estilo.', image: '/pistilo.jpg' },
+  { id: 'pimor', name: 'PiMor', desc: 'Ah, o amor!', image: '/pimor.jpg' },
 ];
 
 export default function Butique() {
@@ -42,7 +42,7 @@ export default function Butique() {
             >
               <div className="aspect-[4/5] bg-white/5 rounded-none mb-8 flex items-center justify-center overflow-hidden relative">
                 <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                <span className="text-white/20 text-xs tracking-[0.2em] uppercase font-medium">Imagem {product.name}</span>
+                <img className="text-white/20 text-xs tracking-[0.2em] uppercase font-medium">Imagem {product.image}</img>
               </div>
               <div className="flex justify-between items-baseline">
                 <h2 className="text-2xl font-light tracking-tight group-hover:translate-x-2 transition-transform duration-500 ease-out">{product.name}</h2>
