@@ -1,6 +1,6 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
-export default function PiLin() {
+export default function Pistilo() {
   return (
     <ProductTemplate 
       category="Liivro" 
