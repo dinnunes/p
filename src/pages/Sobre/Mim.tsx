@@ -3,12 +3,13 @@ import PageTemplate from '../../components/PageTemplate';
 export default function Mim() {
   return (
     <PageTemplate title="Mim">
-      <p style="font-weight: bold;">
-        DIN <br/>
-        Artista
+      <p>
+        <strong>
+          DIN <br/>
+          Artista
+        </strong>
       </p>
-
-      
+ 
       <p>
         Eu, Marcos, mais conhecido por “Din”, estou entre o Rio Grande do Sul, Santa Catarina e São Paulo, tenho 21 anos – 2022, Solteiro? Só que não, Time? Corinthians, Comida? Pizza, Signo? Áries, Cor? Rosa, Sonho? Empresa que tenho em mente. Sou apaixonado por teatro (Cinéfilo) e uma pessoa que aprecia muito a arte.
       </p>
