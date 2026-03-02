@@ -1,13 +1,14 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
-export default function Pistilo() {
+export default function PiSofia() {
   return (
     <ProductTemplate 
       category="Liivro" 
-      name="Pistilo" 
-      description="O estilo é o que resta quando a moda passa. É a sua primeira palavra. Dita antes mesmo de você abrir a boca. Pistilo." 
-      price="R$ 78" 
-      link="https://pay.kiwify.com.br/qh7pDSq" 
+      name="PiSofia" 
+      image="/pisofia.jpg"
+      description="Você é o autor da sua história? Onde termina a sua natureza e começa a sua máscara? PiSofia." 
+      price="R$ 118" 
+      link="https://pay.kiwify.com.br/CqPNhIl" 
     />
   );
 }
