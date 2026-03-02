@@ -1,5 +1,13 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
 export default function PiSofia() {
-  return <ProductTemplate name="PiSofia" description="Delicadeza e sofisticação. Uma abordagem suave para o design moderno." />;
+  return (
+    <ProductTemplate 
+      category="Liivro" 
+      name="PiSofia" 
+      description="Você é o autor da sua história? Onde termina a sua natureza e começa a sua máscara? PiSofia." 
+      price="R$ 118" 
+      link="https://pay.kiwify.com.br/CqPNhIl" 
+    />
+  );
 }
