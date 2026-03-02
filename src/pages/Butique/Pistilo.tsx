@@ -1,5 +1,14 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
-export default function Pistilo() {
-  return <ProductTemplate name="Pistilo" description="A expressão do estilo. Uma declaração de individualidade e bom gosto." />;
+export default function PiLin() {
+  return (
+    <ProductTemplate 
+      category="Liivro" 
+      name="Pistilo"
+      image="/pistilo.jpg"
+      description="O estilo é o que resta quando a moda passa. É a sua primeira palavra. Dita antes mesmo de você abrir a boca. Pistilo." 
+      price="R$ 78" 
+      link="https://pay.kiwify.com.br/qh7pDSq" 
+    />
+  );
 }
