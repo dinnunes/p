@@ -16,6 +16,7 @@ import Marca from './pages/Sobre/Marca';
 import Diario from './pages/Sobre/Diario';
 import Juridico from './pages/Sobre/Juridico';
 import Contato from './pages/Sobre/Contato';
+import Loja from './pages/Loja';
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
               <Route path="juridico" element={<Juridico />} />
               <Route path="contato" element={<Contato />} />
             </Route>
+            <Route path="loja" element={<Loja />} /> {/* <-- ADICIONE AQUI */}
           </Route>
         </Routes>
       </div>
