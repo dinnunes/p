@@ -1,6 +1,6 @@
 import ProductTemplate from '../../components/ProductTemplate';
 
-export default function PiTeni() {
+export default function PiDin() {
   return (
     <ProductTemplate 
       category="Liivro" 
