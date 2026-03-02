@@ -9,12 +9,16 @@ const categorias = [
     itens: [
       { nome: 'Apple TV & HBO Max', desc: 'O melhor do cinema e das produções originais para o seu repertório visual.', link: '#' },
       { nome: 'Kabum & Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' }
+      { nome: 'Kabum & Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' }
+      { nome: 'Kabum & Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' }
     ]
   },
   {
     titulo: 'Dinheiro',
     cor: '#18FF19',
     itens: [
+      { nome: 'FNO, Fiverr & Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' }
+      { nome: 'FNO, Fiverr & Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' }
       { nome: 'FNO, Fiverr & Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' }
     ]
   },
@@ -23,12 +27,16 @@ const categorias = [
     cor: '#1889FF',
     itens: [
       { nome: 'Netshoes, Olympikus & Cobasi', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' }
+      { nome: 'Netshoes, Olympikus & Cobasi', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' }
+      { nome: 'Netshoes, Olympikus & Cobasi', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' }
     ]
   },
   {
     titulo: 'Filosofia',
     cor: '#FF7218',
     itens: [
+      { nome: 'Surfshark, Kindle & Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
+      { nome: 'Surfshark, Kindle & Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
       { nome: 'Surfshark, Kindle & Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' }
     ]
   },
@@ -45,12 +53,16 @@ const categorias = [
     itens: [
       { nome: 'Shein, Vivara & Monte Carlo', desc: 'Do estilo acessível à alta joalheria. Estética e ornamentação pessoal.', link: '#' },
       { nome: 'Beleza na Web & Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
+      { nome: 'Beleza na Web & Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
+      { nome: 'Beleza na Web & Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
+      { nome: 'Beleza na Web & Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' }
     ]
   },
   {
     titulo: 'Amor',
     cor: '#FF189C',
     itens: [
+      { nome: 'Miess & Panty Nova', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' }
       { nome: 'Miess & Panty Nova', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' }
     ]
   }
