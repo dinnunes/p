@@ -17,7 +17,7 @@ export default function Layout() {
           
           <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-[10px] uppercase tracking-[0.2em] text-white/20">
             <p>Pitore © 2026 por Din — CC BY 4.0</p>
-            <p className="font-light italic opacity-50">Enigma Sublime</p>
+            <p className="font-light italic opacity-50">Enigma sublime...</p>
           </div>
         </div>
       </footer>
