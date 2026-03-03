@@ -3,6 +3,14 @@ import Navbar from './Navbar';
 import Breadcrumbs from './Breadcrumbs';
 
 export default function Layout() {
+  // Lógica para saudação automática
+  const getSaudacao = () => {
+    const hora = new Date().getHours();
+    if (hora >= 5 && hora < 12) return "Bom dia";
+    if (hora >= 12 && hora < 18) return "Boa tarde";
+    return "Boa noite";
+  };
+  
   return (
     /* Trocamos bg-black por bg-[#111111] para recuperar a cor original */
     <div className="min-h-screen bg-[#111111] text-white flex flex-col">
