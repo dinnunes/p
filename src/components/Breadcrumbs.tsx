@@ -24,11 +24,8 @@ export default function Breadcrumbs() {
   };
 
   return (
-    // Mude de text-white/20 para text-white/40
-<nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.15em] text-white/40 py-8 mb-4">
-  {/* O resto do código permanece igual */}
-</nav>
-      <Link to="/" className="hover:text-white transition-colors">▭</Link>
+    <nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.15em] text-white/40 py-8 mb-4">
+      <Link to="/" className="hover:text-white transition-colors">Lar</Link>
       
       {pathnames.map((name, index) => {
         const routeTo = `/${pathnames.slice(0, index + 1).join('/')}`;
@@ -37,9 +34,9 @@ export default function Breadcrumbs() {
 
         return (
           <span key={name} className="flex items-center gap-2">
-            <span className="text-white/10">›</span>
+            <span className="text-white/20">›</span>
             {isLast ? (
-              <span className="text-white/40">{label}</span>
+              <span className="text-white/80">{label}</span>
             ) : (
               <Link to={routeTo} className="hover:text-white transition-colors">
                 {label}
