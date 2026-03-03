@@ -1,16 +1,20 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
+import { useEffect } from 'react'; // 1. Importe o useEffect
 
 export default function Home() {
+  // 2. Adicione esta lógica para resetar o título
+  useEffect(() => {
+    document.title = "Pitore (*^^*)";
+  }, []);
+
   return (
     <motion.div 
       initial={{ opacity: 0, filter: 'blur(10px)' }}
       animate={{ opacity: 1, filter: 'blur(0px)' }}
       transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-      /* Mudamos de justify-center para um padding vertical consistente (py-20) */
       className="flex-grow flex flex-col items-center px-8 py-20 text-center"
     >
-      {/* Adicionei uma margem superior (mt-12) para o título descer exatamente como nas outras páginas */}
       <motion.h1 
         initial={{ y: 20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -19,6 +23,8 @@ export default function Home() {
       >
         Pitore
       </motion.h1>
+      
+      {/* ... resto do seu código (parágrafo e botão) ... */}
       
       <motion.p 
         initial={{ y: 20, opacity: 0 }}
