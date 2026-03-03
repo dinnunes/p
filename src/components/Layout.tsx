@@ -29,7 +29,7 @@ export default function Layout() {
     {/* Aumentamos a opacidade do texto para white/40 e a linha para white/10 */}
     <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-start md:items-center gap-6 text-[10px] uppercase tracking-[0.2em] text-white/40">
       <p>Pitore © {new Date().getFullYear()} por Din — CC BY 4.0</p>
-      <p className="font-light italic opacity-80">Enigma Sublime</p>
+      <p className="font-light opacity-80">{getSaudacao()}</p>
     </div>
   </div>
 </footer>
