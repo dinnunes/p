@@ -17,10 +17,14 @@ import Diario from './pages/Sobre/Diario';
 import Juridico from './pages/Sobre/Juridico';
 import Contato from './pages/Sobre/Contato';
 import Loja from './pages/Loja';
+import Analytics from './components/Analytics'; // Importe o componente que criamos
 
 export default function App() {
   return (
     <HashRouter>
+      {/* O Analytics monitora tudo o que acontece dentro do HashRouter */}
+      <Analytics />
+      
       <div className="app-wrapper">
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -46,7 +50,8 @@ export default function App() {
               <Route path="juridico" element={<Juridico />} />
               <Route path="contato" element={<Contato />} />
             </Route>
-            <Route path="loja" element={<Loja />} /> {/* <-- ADICIONE AQUI */}
+            
+            <Route path="loja" element={<Loja />} />
           </Route>
         </Routes>
       </div>
