@@ -23,8 +23,13 @@
 
     <script>
       function atualizarMeta() {
-        const hash = window.location.hash;
+        let hashOriginal = window.location.hash; 
+
+        const hash = hashOriginal.split('&')[0].split('?')[0];
+
         const metaTag = document.getElementById('meta-desc');
+  
+        if (hash === '#/sobre') {
 
         if (hash === 'https://dinnunes.github.io/#/sobre') {
           document.title = "Sobre | Pitore";
