@@ -7,60 +7,58 @@ const categorias = [
     titulo: 'Entretenimento',
     cor: '#FE1818',
     itens: [
-      { nome: 'Apple TV', desc: 'O melhor do cinema e das produções originais para o seu repertório visual.', link: '#' },
-      { nome: 'HBO Max', desc: 'O melhor do cinema e das produções originais para o seu repertório visual.', link: '#' },
-      { nome: 'Steam', desc: 'Tecnologia, hardware e o universo dos jogos para o seu setup de alta performance.', link: '#' },
+      { nome: 'Apple TV', desc: 'O Apple TV é um dos serviços da Apple. É revigorante assistir filmes e séries do streaming. Um potencial enorme.', link: 'https://www.apple.com/br/apple-tv/' },
+      { nome: 'HBO Max', desc: 'O HBO Max é simplesmente o lugar onde você encontra grandes histórias para assistir, obras de arte.', link: 'https://www.hbomax.com/br/pt' },
+      { nome: 'Steam', desc: 'O Steam é o definitivo para jogar jogos. Seja o protagonista e assuma o controle.', link: 'https://store.steampowered.com' },
     ]
   },
   {
     titulo: 'Dinheiro',
     cor: '#18FF19',
     itens: [
-      { nome: 'FNO', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' },
-      { nome: 'Inter', desc: 'Ferramentas para construção de liberdade geográfica, trabalho digital e gestão inteligente.', link: '#' },
+      { nome: 'FNO', desc: 'Uma época muito boa para ter negócios. Com o FNO você pode aprender a ganhar dinheiro online.', link: 'https://hotm.io/fnn' },
+      { nome: 'Inter', desc: 'No Inter, eu e você ganhamos pontos Loop se você abrir uma conta com esse meu código de indicação: 332E1384', link: 'https://inter.co' },
     ]
   },
   {
     titulo: 'Saúde',
     cor: '#1889FF',
     itens: [
-      { nome: 'Olympikus', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' },
-      { nome: 'Netshoes', desc: 'Equipamentos para o corpo em movimento e cuidados para a vida doméstica e animal.', link: '#' },
+      { nome: 'Netshoes', desc: 'Está na hora de comprar a camisa do seu time, principalmente a da seleção brasiliana. Bem-vindo a Netshoes.', link: 'https://tiddly.xyz/hhuKy' },
+      { nome: 'Olympikus', desc: 'As vezes tudo o que você precisa é de uma boa roupa para treinar. Tenha a qualidade que seus exercícios pedem, meu chinelo que o diga.', link: 'https://tidd.ly/4s39DPK' },
     ]
   },
   {
     titulo: 'Filosofia',
     cor: '#FF7218',
     itens: [
-      { nome: 'Surfshark', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
-      { nome: 'Kindle', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
-      { nome: 'Mercado Livre', desc: 'Privacidade digital, leitura infinita e o acesso rápido a qualquer objeto de estudo.', link: '#' },
+      { nome: 'NordVPN', desc: 'Escolher usar uma VPN para ter mais privacidade é uma filosofia. Te apresento a NordVPN.', link: 'https://nordvpn.com/pt-br/' },
+      { nome: 'Kindle', desc: 'Os livros ficaram mais baratos e acessíveis com o Kindle Unlimited. Muitas jornadas começam apenas com um livro.', link: 'https://amzn.to/3PMYXTw' },
+      { nome: 'Mercado Livre', desc: 'Temos aqui um ótimo lugar para fazer compras digitais. No Mercado Livre também encontramos livros!', link: 'https://dub.sh/piml' },
     ]
   },
   {
     titulo: 'Língua',
     cor: '#FEEF18',
     itens: [
-      { nome: 'YouTube', desc: 'A maior plataforma de conhecimento em vídeo e oratória do mundo.', link: '#' },
+      { nome: 'No YouTube você pode descobrir muitas coisas úteis. O canal da Lívia Lobo tem um vídeo sobre língua tão simples que eu amei.', link: 'https://youtu.be/T0iej6lGgJM?si=ra_38L1pzbVQJlkD' },
     ]
   },
   {
     titulo: 'Estilo',
     cor: '#ae18fe',
     itens: [
-      { nome: 'Shein', desc: 'Do estilo acessível à alta joalheria. Estética e ornamentação pessoal.', link: '#' },
-      { nome: 'Monte Carlo', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
-      { nome: 'Vivara', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
-      { nome: 'Beleza na Web', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
-      { nome: 'Camicado', desc: 'Cuidados com a imagem pessoal e a harmonia estética do seu ambiente.', link: '#' },
+      { nome: 'Renner', desc: 'No Brasil, as roupas são importantes e valorizadas. A Renner te deixa estiloso.', link: 'https://www.lojasrenner.com.br/' },
+      { nome: 'Vivara', desc: 'As joias são que nem os calçados, elas elevam o visual; a Vivara pode provar.', link: 'https://tidd.ly/49eulEO' },
+      { nome: 'Beleza na Web', desc: 'A beleza não é só na web, é em você. Opções para todos os gêneros.', link: 'https://www.belezanaweb.com.br/' },
+      { nome: 'Camicado', desc: 'Na Camicado, você encontra qualidade e praticidade. O seu lar, o seu estilo.', link: 'https://tidd.ly/4s1ihhB' },
     ]
   },
   {
     titulo: 'Amor',
     cor: '#FF189C',
     itens: [
-      { nome: 'Miess', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' },
-      { nome: 'Panty Nova', desc: 'Exploração, desejo e o aprofundamento da intimidade e do prazer.', link: '#' },
+      { nome: 'Pantynova', desc: 'Uma marca de bem-estar sexual interessante, seja esperta. Na Pantynova você tem privacidade.', link: 'https://www.pantynova.com/' },
     ]
   }
 ];
