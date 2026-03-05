@@ -41,7 +41,7 @@ const categorias = [
     titulo: 'Língua',
     cor: '#FEEF18',
     itens: [
-      { nome: 'No YouTube você pode descobrir muitas coisas úteis. O canal da Lívia Lobo tem um vídeo sobre língua tão simples que eu amei.', link: 'https://youtu.be/T0iej6lGgJM?si=ra_38L1pzbVQJlkD' },
+      { nome: 'YouTube', desc: 'No YouTube você pode descobrir muitas coisas úteis. O canal da Lívia Lobo tem um vídeo sobre língua tão simples que eu amei.', link: 'https://youtu.be/T0iej6lGgJM?si=ra_38L1pzbVQJlkD' },
     ]
   },
   {
