@@ -9,6 +9,7 @@ export default function PiSofia() {
         name="PiSofia"
         image="/pisofia.jpg"
         description="Você é o autor da sua história? Onde termina a sua natureza e começa a sua máscara? PiSofia." 
+        price="R$ 118" 
         link="https://pay.kiwify.com.br/CqPNhIl" 
       />
       <div className="pb-20">
