@@ -13,7 +13,7 @@ export default function Marca() {
           </p>
 
           <p className="text-white/80 font-light leading-relaxed">
-            <strong className="text-[10px] uppercase tracking-[0.3em] block mb-2 opacity-50">Lema secundário</strong>
+            <strong className="text-[10px] uppercase tracking-[0.3em] block mb-2 opacity-50">Lema artístico</strong>
             <span className="text-xl tracking-tight italic">Uma tragicomédia...</span>
           </p>
 
@@ -23,7 +23,7 @@ export default function Marca() {
           </p>
 
           <p className="text-white/80 font-light leading-relaxed">
-            <strong className="text-[10px] uppercase tracking-[0.3em] block mb-2 opacity-50">Forma Curta</strong>
+            <strong className="text-[10px] uppercase tracking-[0.3em] block mb-2 opacity-50">Lema (forma curta)</strong>
             <span className="text-xl tracking-tight italic">...</span>
           </p>
         </div>
@@ -37,7 +37,7 @@ export default function Marca() {
           </p>
 
           <p>
-            O “Pi” e o “▭” em qualquer tipografia e cor, são duas opções na forma de texto que você pode usar para se referir a Pitore.
+            O “Pi” e o “▭” em qualquer tipografia e cor, são duas opções na forma de texto que você pode usar para se referir a Pitore. No favicon e nas redes sociais, você vê a logo na forma de imagem; as vezes aparece uma arte entre as bordas!
           </p>
           
           <p>
