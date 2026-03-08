@@ -25,7 +25,7 @@ export default function Redacao() {
     },
     {
       titulo: "Nota",
-      descricao: "Fragmentos visuais e lampejos de crítica para você saber o que assistir no cinema ou TV.",
+      descricao: "Fragmentos visuais e lampejos de crítica para você saber o que assistir no cinema. Ou na TV.",
       links: [
         { nome: "Pinterest", url: "#" }
       ]
