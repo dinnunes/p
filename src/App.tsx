@@ -13,7 +13,7 @@ import Sobre from './pages/Sobre';
 import Mim from './pages/Sobre/Mim';
 import Etica from './pages/Sobre/Etica';
 import Marca from './pages/Sobre/Marca';
-import Redacao from './pages/Sobre/Redacao';
+import Editorial from './pages/Sobre/Editorial';
 import Juridico from './pages/Sobre/Juridico';
 import Contato from './pages/Sobre/Contato';
 import Loja from './pages/Loja';
@@ -46,7 +46,7 @@ export default function App() {
               <Route path="mim" element={<Mim />} />
               <Route path="etica" element={<Etica />} />
               <Route path="marca" element={<Marca />} />
-              <Route path="redacao" element={<Redacao />} />
+              <Route path="editorial" element={<Editorial />} />
               <Route path="juridico" element={<Juridico />} />
               <Route path="contato" element={<Contato />} />
             </Route>
