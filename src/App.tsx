@@ -17,12 +17,15 @@ import Editorial from './pages/Sobre/Editorial';
 import Juridico from './pages/Sobre/Juridico';
 import Contato from './pages/Sobre/Contato';
 import Loja from './pages/Loja';
-import Analytics from './components/Analytics'; // Importe o componente que criamos
+import Analytics from './components/Analytics';
+import AtmosphereManager from './components/AtmosphereManager'; // 1. Importado aqui
 
 export default function App() {
   return (
     <HashRouter>
-      {/* O Analytics monitora tudo o que acontece dentro do HashRouter */}
+      {/* 2. O Maestro ativado aqui, vigiando o relógio */}
+      <AtmosphereManager /> 
+      
       <Analytics />
       
       <div className="app-wrapper">
