@@ -12,18 +12,18 @@ export default function AtmosphereManager() {
         opacity: '0.9'
       };
 
-      // Manhã (06:00 - 11:59) - Claridade Sutil
+      // Manhã (06:00 - 11:59) - Carvão Suave
       if (hours >= 6 && hours < 12) {
         config = {
-          bg: '#111111',
+          bg: '#161616', // Um pouco mais claro que o anterior
           font: '"Inter", sans-serif',
-          opacity: '0.85'
+          opacity: '0.8'
         };
       } 
-      // Tarde (12:00 - 17:59) - Foco Editorial
+      // Tarde (12:00 - 17:59) - Grafite Fosco
       else if (hours >= 12 && hours < 18) {
         config = {
-          bg: '#080808',
+          bg: '#0D0D0D', // O meio termo perfeito
           font: '"Helvetica Neue", Helvetica, Arial, sans-serif',
           opacity: '0.9'
         };
