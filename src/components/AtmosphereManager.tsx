@@ -37,17 +37,26 @@ export default function AtmosphereManager() {
         };
       }
 
-      // Aplica as variáveis ao :root
-      root.style.setProperty('--pitore-bg', config.bg);
-      root.style.setProperty('--pitore-font', config.font);
-      root.style.setProperty('--pitore-text-opacity', config.opacity);
+      // Verificação de segurança: Só aplica se houver mudança real
+      // Isso evita o "piscar" de fontes e cores ao navegar entre páginas
+      const currentBg = root.style.getPropertyValue('--pitore-bg');
+      
+      if (currentBg !== config.bg) {
+        root.style.setProperty('--pitore-bg', config.bg);
+        root.style.setProperty('--pitore-font', config.font);
+        root.style.setProperty('--pitore-text-opacity', config.opacity);
+        
+        // Log para você conferir no console (F12) se a atmosfera mudou
+        console.log(`Atmosfera Pitore atualizada para o ciclo: ${hours}h`);
+      }
     };
 
     updateAtmosphere();
-    // Verifica a cada minuto se a hora mudou para atualizar o clima
+    
+    // Intervalo de 1 minuto para checar a hora
     const interval = setInterval(updateAtmosphere, 60000);
     return () => clearInterval(interval);
   }, []);
 
-  return null; // Este componente não renderiza nada visualmente
+  return null;
 }
