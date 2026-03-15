@@ -22,24 +22,30 @@ body {
 }
 
 .app-wrapper {
-  background-color: var(--pitore-bg);
-  font-family: var(--pitore-font);
-  color: rgba(255, 255, 255, var(--pitore-text-opacity));
+  /* Usamos !important para garantir que o Maestro mande no design */
+  background-color: var(--pitore-bg) !important;
+  font-family: var(--pitore-font) !important;
+  color: rgba(255, 255, 255, var(--pitore-text-opacity)) !important;
   
-  border-radius: 0;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
-  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.05);
   
-  /* Transição suave para a mudança de atmosfera */
-  transition: background-color 3s ease, font-family 1s ease, color 2s ease;
+  /* Transições sutis */
+  /* Note: background-color é lenta, font-family é rápida para não parecer erro */
+  transition: background-color 4s cubic-bezier(0.4, 0, 0.2, 1), 
+              color 2s ease-in-out;
 }
 
-/* Garante que os textos herdem a fonte dinâmica */
-h1, h2, h3, h4, span, p, a {
-  font-family: var(--pitore-font);
-  transition: font-family 1s ease;
+/* IMPORTANTE: Se as suas páginas tiverem fundo, elas precisam ser transparentes */
+section, main, .page-container {
+  background-color: transparent !important;
+}
+
+/* Para a fonte não "pular" de forma seca, 
+   fazemos uma transição de opacidade bem rápida na troca */
+h1, h2, h3, h4, p, a, span {
+  transition: font-family 0.5s ease, opacity 0.5s ease;
 }
