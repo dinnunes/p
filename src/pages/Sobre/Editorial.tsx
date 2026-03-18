@@ -14,12 +14,12 @@ export default function Editorial() {
       titulo: "Redação",
       descricao: "Onde a ideia toma forma através da escrita. Ensaios profundos e comunicações diretas.",
       categorias: [
+        { rotulo: "Boletim", links: [
+          { nome: "Substack", url: "https://dinnunes.substack.com/" }
+        ]},
         { rotulo: "Artigo", links: [
           { nome: "LinkedIn", url: "https://www.linkedin.com/in/pitore/" },
           { nome: "Threads", url: "https://www.threads.com/@vaidadin" }
-        ]},
-        { rotulo: "Boletim", links: [
-          { nome: "Substack", url: "https://dinnunes.substack.com/" }
         ]}
       ]
     },
