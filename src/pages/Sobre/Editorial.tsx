@@ -41,6 +41,9 @@ export default function Editorial() {
         { rotulo: "Crítica", links: [
           { nome: "Pinterest", url: "https://br.pinterest.com/mvsnunes/entretenimento/cr%C3%ADtica/" }
         ]},
+        { rotulo: "Expressão", links: [
+          { nome: "Giphy", url: "https://giphy.com/channel/dinspi" }
+        ]},
         { rotulo: "Tomada", links: [
           { nome: "YouTube", url: "https://www.youtube.com/@pitoredin/videos" }
         ]}
