@@ -16,7 +16,7 @@ export default function Mim() {
         {/* Conteúdo Biográfico */}
         <div className="space-y-8 text-white/50 font-light leading-relaxed">
           <p>
-            Eu, Marcos, mais conhecido por “Din”, estou entre o Rio Grande do Sul, Santa Catarina e São Paulo, tenho 21 anos – 2022, Solteiro? Só que não, Time? Corinthians, Comida? Pizza, Signo? Áries, Cor? Rosa, Sonho? Empresa que tenho em mente. Sou apaixonado por teatro (Cinéfilo) e uma pessoa que aprecia muito a arte.
+            Eu, Marcos, mais conhecido por “Din”, estou entre o Rio Grande do Sul, Santa Catarina e São Paulo, tenho 24 anos, Solteiro? Só que não, Time? Corinthians, Comida? Pizza, Signo? Áries, Cor? Rosa, Sonho? Empresa que tenho em mente. Sou apaixonado por teatro (Cinéfilo) e uma pessoa que aprecia muito a arte.
           </p>
 
           <p>
